@@ -1,0 +1,138 @@
+.imagebox {
+	background: grey;
+	padding: 20px;
+	display: inline-block;
+}
+
+.imagedetails {
+	display: inline-block;
+	position: absolute;
+	top: 175px;
+	background: grey;
+	left: 200px;
+}
+
+.imagedetails section {
+	display: none;
+}
+
+.imagedetails img {
+	max-width: 600px;
+	max-height: 600px;
+}
+
+.imagebox img {
+	margin: 15px;
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+h1 {
+	color: yellow;
+	margin-top: 0px;
+}
+
+#top {
+	background-color: black;
+	height: 98px;
+
+}
+
+a {
+	color: white;
+}
+
+.finder {
+	font-weight: bold;
+}
+
+nav {
+	text-align: center;
+}
+
+
+#middle {
+	text-align: center;
+	height: 50px;
+	background-color: grey;
+}
+
+#middle h2 {
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+.strike {
+	color: lightgrey;
+	text-decoration: line-through;
+}
+
+.underline {
+	border-bottom: 2px solid yellow;
+
+}
+
+body, html {
+	height: 100% !important;
+	width: 100% !important;
+}
+
+#thirdpart {
+	background-image: url(../images/santamonica.jpg);
+	height: 600px;
+	width: 100%;
+	display: inline-block;
+	background-size: cover; 
+}
+
+html, body {
+	width: 90%;
+}
+
+.other-img {
+	border: 1px solid black;
+	padding: 20px;
+	background: rgba(250, 250, 250, .5);
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 200px;
+}
+
+/*.button {
+	background: yellow;
+	padding: 15px;
+	font-weight: bold;
+	border-radius: 5px;
+	border-bottom: 2px solid grey;
+}*/
+
+.button:hover {
+	color: red;
+}
+
+.not-yellow {
+	color: black;
+}
+
+.bottom-section {
+	float: right;
+	width: 33%;
+	border-right: 1px solid grey;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.bottom-section .button {
+	background: grey;
+}
+
+footer {
+	float: right;
+	background: black;
+	color: white;
+	width: 100%;
+	padding: 20px;
+}
